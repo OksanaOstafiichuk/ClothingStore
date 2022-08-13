@@ -1,3 +1,10 @@
+import { AppBar } from './AppBar/AppBar';
+
 export const App = () => {
-  return <h1>Clothing Store</h1>;
+  return (
+    <div>
+      <AppBar />
+      <h1>Clothing Store</h1>
+    </div>
+  );
 };
